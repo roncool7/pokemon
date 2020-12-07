@@ -1,0 +1,62 @@
+html,body {
+  height: 100%;
+  width: 100%;
+  background-image: url("/assets/pokemon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+span {
+  font-size: 20px;
+  color: white;
+  text-shadow: 1px 1px black;
+  font-weight: 900;
+  font-family: system-ui;
+  min-inline-size: -webkit-fill-available;
+  margin-top: 30px;
+}
+
+h2 {
+  font-weight: 900;
+  text-shadow: 1px 1px blue;
+  text-transform: capitalize;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+#poke-container {
+  padding: 30px;
+  text-align: center;
+}
+
+#header-container {
+  border-radius: 5px;
+  position: fixed;
+  width: inherit;
+  z-index: 99;
+  height: 55px;
+}
+
+#header-text {
+  margin: 0 auto;
+}
+
+#generate-pokemon {
+  margin: auto;
+  margin-top: 20px;
+}
+
+#reset-btn {
+  position: fixed;
+  left: 90%;
+  display: none;
+  top: 50px;
+  left:5px;
+}
+
